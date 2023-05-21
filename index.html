@@ -4,59 +4,67 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="keywords" content="Nick barankevich, cv, resume">
-		<meta name="description" content="Резюме Баранкевича Николая ">
+		<meta name="keywords" content="Nick barankevich, cv, resume, IT">
+		<meta name="description" content="CV of Nick Barankevich">
+		<link rel="stylesheet" href="style.css">
 		<title>CV of Nick Barankevich</title>
 	</head>
 	<body>
-		<img src="My photo.jfif" width="150" alt="Photo of Nick Barankevich">
-		<h1>Баранкевич Николай</h1>
-		<p>Сейчас я работаю <em>инженером</em> , но так же хочу изучать и реализоваться в <strong>IT сфере.</strong> </p>
-		<hr>
-		<a href="https://web.telegram.org/a/" target="_blank">My telegram</a>
-		<hr>
-		<h2>My hobby</h2>
+		<div class="card_1">
+			<img src="My photo.jpg" alt="Photo of Nick Barankevich">
+			<h1>Баранкевич Николай</h1>
+			<p class="info">Сейчас я работаю инженером , но так же хочу изучать и реализоваться в IT сфере. </p>
+		</div>
+		<div class="hobby"><h2>My hobby</h2>
 		
 				<ol>
 					<li>Work out</li>
 					<li>Reading</li>
 					<li>Cooking</li>
 				</ol>
-			<hr>
-			<h2>Work expiriense</h2>
-				<table>
-					<thead>
-						<tr>
-							<th>Место работы</th>
-							<th>Должность</th>
-							<th>Продолжительность</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>КБ "Беспилотные Вертолеты"</td>
-							<td>Инженер-технолог</td>
-							<td>03.2023- по нынешнее время</td>
-						</tr>
-					</tbody>
-				</table>
-				<hr>
-				<h2>Связаться со мной</h2>
-				<form action="">
-					<div>
-						<label for="name">Your name</label>
-						<input type="text" id="name" placeholder="Type your name:"> 
-					</div>
-					<div>
-						<label for="mail">Your email</label>
-						<input type="email" id="mail" placeholder="Type your email:"> 
-					</div>
-					<div>
-						<label for="message">Your message</label>
-						<br>
-						<textarea name="" id="" cols="20" rows="7" placeholder="Type your message:"></textarea>
-					</div>
-					<button type="submit">Send!</button>
-				</form>
+			</div>
+			<div class="card_2">
+				<h2>Work expiriense</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Место работы</th>
+								<th>Должность</th>
+								<th>Продолжительность</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>БНТУ</td>
+								<td>Стажер младшего научного сотрудника</td>
+								<td>01.06.2022 - 31.12.2022</td>
+							</tr>
+							<tr>
+								<td>КБ "Беспилотные Вертолеты"</td>
+								<td>Инженер-технолог</td>
+								<td>03.2023- по нынешнее время</td>
+							</tr>
+						</tbody>
+					</table>
+			</div>
+				<div class="conect">
+						<h2>Связаться со мной</h2>
+						<form action="/">
+							<div>
+								<label for="name">Your name</label>
+								<input type="text" id="name" placeholder="Type your name"> 
+							</div>
+							<div>
+								<label for="mail">Your email</label>
+								<input type="email" id="mail" placeholder="Type your email"> 
+							</div>
+							<div>
+								<label for="message">Your message</label>
+								<br>
+								<textarea id="message" cols="20" rows="7" placeholder="Type your message"></textarea>
+							</div>
+							<button type="submit">Send!</button>
+						</form>
+				</div>
 	</body>
 </html>

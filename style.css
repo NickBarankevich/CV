@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+body {
+	font-family: Wix Madefor Display, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: rgb(80, 92, 58);
+	background: rgb(240, 237, 204);
+}
+.info {
+	font-style: italic;
+}
+
+.card_1 {
+	background-color: rgb(198, 152, 241);
+	border-left: 10px solid olive;
+	border-radius: 4px;
+	padding-left: 15px;
+}
+.hobby{
+	border-left: 10px solid olive;
+	border-radius: 4px;
+	padding-left: 15px;
+}
